@@ -1,9 +1,9 @@
 
 # Projeto LEDA - transformações 
 
-A primeira etapa do projeto da disciplina de Laboratório de Estrutura de Dados tem como objetivo a transformação das datas do arquivo "tweets.csv" criando um novo e nomeado de "tweets_formated_data.csv".
+A primeira etapa do projeto da disciplina de Laboratório de Estrutura de Dados tem como objetivo a transformação das datas do arquivo "tweets.csv", gerando um novo CSV nomeado como "tweets_formated_data.csv".
 
-A partir das transformação da data, cria duas novas colunas contendo novas informações e dados sobre elas, armazenado no novo CSV chamado “tweets_mentioned_persons.csv”
+A partir das transformação da data, cria duas novas colunas contendo novas informações e dados sobre elas, armazenado em um novo CSV chamado “tweets_mentioned_persons.csv”.
 
 ## Como rodar o código
 
