@@ -16,7 +16,7 @@ A partir das transformação da data, cria duas novas colunas contendo novas inf
 3. Coloque o arquivo na pasta correta.
    - Após o download no passo 2, mova o arquivo ``` tweets.csv ``` para a pasta ```dataBaseTweets``` que está no repositório clonado
 
-5. Verifique se o caminho do arquivo no código está correto.
+5. Verifique se o caminho do arquivo ```src/ProcessCSV``` está correto.
 
    - No Windows: o caminho é separado por duas barras invertidas \\ (como está no código original) 
     
