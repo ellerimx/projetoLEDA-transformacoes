@@ -16,17 +16,16 @@ Execute no terminal:
 3. Coloque o arquivo na pasta correta.
 Após o download no passo 2, mova o arquivo ``` tweets.csv ``` para a pasta ```dataBaseTweets``` que está no repositório clonado
 
-<<<<<<< HEAD
 
 4. Verifique se o caminho do arquivo no código está correto.
 
     No Windows: o caminho é separado por duas barras invertidas (como está no código original) 
     
     ![imagem](execucao/diretorioWindows.png)
-=======
+
 4. Verifique se o caminho do arquivo no código está correto.
 
    No Windows: o caminho é separado por duas barras invertidas (como está no código original) 
->>>>>>> 8c1317c94e45516d6e973e0009a993f068bc9707
+
 
    No MacOS ou Linux: modifique o caminho para uma barra normal. Exemplo: ```String inputFile = "dataBaseTweets/tweets.csv"; ```
