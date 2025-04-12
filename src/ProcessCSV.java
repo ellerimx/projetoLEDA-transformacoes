@@ -6,10 +6,11 @@ import java.io.IOException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Locale;
+import java.io.File;
 
 public class ProcessCSV {
     public static void main(String[] args) throws IOException {
-        String inputFile = "dataBaseTweets\\tweets.csv"; // leitura do arquivo do csv
+        String inputFile = "dataBaseTweets"+File.separator+"tweets.csv"; // leitura do arquivo do csv
         String formatedData = "tweets_formated_data.csv"; // criacao do csv com datas formatadas
 
         // criar csv com as datas transformadas
