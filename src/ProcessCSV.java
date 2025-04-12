@@ -7,6 +7,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Locale;
 import java.io.File;
+import java.util.TimeZone;
 
 public class ProcessCSV {
     public static void main(String[] args) throws IOException {
@@ -50,13 +51,21 @@ public class ProcessCSV {
     
     //para formatar a data
     public static String format_date(String dateString) {
-        SimpleDateFormat inputFormat = new SimpleDateFormat("EEE MMM dd HH:mm:ss z yyyy", Locale.ENGLISH);
+
+        String[] parts = dateString.split(" ");
+        if (parts.length >= 6) {
+            dateString = String.format("%s %s %s %s %s", parts[0], parts[1], parts[2], parts[3], parts[5]);
+        }
+
+        SimpleDateFormat inputFormat = new SimpleDateFormat("EEE MMM dd HH:mm:ss yyyy", Locale.ENGLISH);
+        inputFormat.setLenient(false);
+
         SimpleDateFormat outputFormat = new SimpleDateFormat("dd/MM/yyyy");
 
         try {
             return outputFormat.format(inputFormat.parse(dateString));
         } catch (ParseException e) {
-            return dateString; // mantem a original caso nao consiga converter
+            return dateString; // retorna original se não conseguir converter
         }
     }
 
