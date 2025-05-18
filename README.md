@@ -36,7 +36,9 @@ Para a segunda etapa do projeto, foi feita uma comparação com algoritmos de or
 
 5. Execute o projeto na sua IDE java.
 
+__________
 
+Link com commits da primeira entrega: [print](https://drive.google.com/file/d/1hPedfjo_sTyTc6mWou9IbI_eFsN4ClZ7/view?usp=drive_link)
 
 Link do relatório: [Relatório LEDA - algoritmos de ordenação](https://drive.google.com/file/d/1FxMFbImFFEYHl5DOJU00audjLnL00plE/view?usp=sharing)
 
